@@ -1,0 +1,20 @@
+# Entornos virtuales
+venv/
+.env
+
+# Archivos Python compilados
+__pycache__/
+*.pyc
+
+# Bases de datos locales
+*.db
+
+# Logs
+logs/
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos PDF u otros documentos (opcional)
+*.pdf
