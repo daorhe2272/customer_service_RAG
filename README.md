@@ -1,11 +1,8 @@
-¡Vamos a por ese README! 🚀 Te armo uno básico pero completo para tu **proyecto postventa IA**. Aquí va:
-
-```markdown
 # Proyecto Agente Postventa IA
 
 Este proyecto implementa un **agente inteligente para la gestión postventa** en la industria de la moda. Utiliza **modelos de lenguaje (LLMs)**, **embeddings vectoriales**, **bases de datos ChromaDB** y **Gemini API** para brindar respuestas contextuales a clientes sobre pedidos, devoluciones y soporte técnico.
 
-## 🏗️ Estructura del proyecto
+## Estructura del proyecto
 
 - `main.py`: Punto de entrada de la aplicación backend.
 - `rag_service.py`: Servicio de **Retrieval-Augmented Generation (RAG)** para enriquecer las respuestas con datos externos.
@@ -16,7 +13,7 @@ Este proyecto implementa un **agente inteligente para la gestión postventa** en
 - `frontend.py`: Interfaz de usuario en **Streamlit** o **FastAPI**.
 - `requirements.txt`: Lista de dependencias del proyecto.
 
-## 🚀 ¿Cómo ejecutar el proyecto?
+## ¿Cómo ejecutar el proyecto?
 
 1. Clona el repositorio:
 
@@ -45,7 +42,7 @@ Este proyecto implementa un **agente inteligente para la gestión postventa** en
    python main.py
    ```
 
-## 📂 Datos e indexación
+## Datos e indexación
 
 Para que el agente pueda recuperar información relevante:
 
@@ -55,7 +52,7 @@ python indexar.py
 
 Esto cargará los documentos en **ChromaDB** para ser usados por el agente.
 
-## 🧠 Tecnologías utilizadas
+## Tecnologías utilizadas
 
 - **Python 3.x**
 - **ChromaDB**
@@ -63,7 +60,7 @@ Esto cargará los documentos en **ChromaDB** para ser usados por el agente.
 - **Streamlit / FastAPI**
 - **LangChain (para orquestación del RAG)**
 
-## ⚙️ Próximas mejoras
+## Próximas mejoras
 
 - Implementación de **memoria conversacional**.
 - Integración con **APIs externas** para obtener estado de pedidos en tiempo real.
@@ -71,12 +68,12 @@ Esto cargará los documentos en **ChromaDB** para ser usados por el agente.
 
 ---
 
-¡Contribuciones bienvenidas! 🚀
+¡Contribuciones bienvenidas!
 ```
 
 ---
 
-### 🚦 **Pasos para agregarlo:**
+### **Pasos para agregarlo:**
 
 1. Crea un archivo en la raíz del proyecto llamado:
 
