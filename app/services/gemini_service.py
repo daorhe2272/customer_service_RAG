@@ -27,4 +27,3 @@ Responde siempre de manera **clara, formal pero fresca**, mostrando empatía y r
 """
     respuesta = model.generate_content(prompt)
     return respuesta.text
-

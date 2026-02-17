@@ -1,20 +1,21 @@
-# Entornos virtuales
+# Virtual environments
 venv/
+.venv/
+
+# Secrets
 .env
 
-# Archivos Python compilados
+# Python compiled files
 __pycache__/
 *.pyc
+*.pyo
 
-# Bases de datos locales
-*.db
+# Runtime-generated storage (databases, vector store, logs)
+storage/
 
-# Logs
-logs/
-
-# Archivos del sistema
+# IDE / OS files
 .DS_Store
 Thumbs.db
 
-# Archivos PDF u otros documentos (opcional)
+# Uploaded PDFs (not source data)
 *.pdf

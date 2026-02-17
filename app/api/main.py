@@ -2,9 +2,9 @@ from fastapi import FastAPI, UploadFile, File
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from typing import List
-from rag_service import dividir_y_indexar_texto, buscar_contexto
-from gemini_service import generar_respuesta_con_contexto
-from models import SessionLocal, Conversacion
+from app.services.rag_service import dividir_y_indexar_texto, buscar_contexto
+from app.services.gemini_service import generar_respuesta_con_contexto
+from app.models.models import SessionLocal, Conversacion
 from sqlalchemy import func
 import fitz  # PyMuPDF
 import os
@@ -28,13 +28,15 @@ class ConversacionRequest(BaseModel):
     mensaje: str
     session_id: str
 
-# Función para guardar logs en formato JSONL
+# Logs stored under storage/logs/
+_BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+_LOG_PATH = os.path.join(_BASE_DIR, "storage", "logs", "interacciones.jsonl")
+
 def guardar_log(entry):
-    os.makedirs("logs", exist_ok=True)
-    with open("logs/interacciones.jsonl", "a", encoding="utf-8") as f:
+    os.makedirs(os.path.dirname(_LOG_PATH), exist_ok=True)
+    with open(_LOG_PATH, "a", encoding="utf-8") as f:
         f.write(json.dumps(entry, ensure_ascii=False) + "\n")
 
-# Función para limpiar sesiones inactivas
 def limpiar_sesiones_expiradas(db, horas_inactividad=2):
     limite = datetime.utcnow() - timedelta(hours=horas_inactividad)
     subq = db.query(
@@ -103,14 +105,11 @@ async def preguntar_conversacional(data: ConversacionRequest):
 
     db = SessionLocal()
 
-    # Limpiar sesiones expiradas
     limpiar_sesiones_expiradas(db)
 
-    # Guardar pregunta del usuario
     db.add(Conversacion(session_id=session_id, role="user", contenido=pregunta))
     db.commit()
 
-    # Guardar log
     guardar_log({
         "session_id": session_id,
         "role": "user",
@@ -118,24 +117,19 @@ async def preguntar_conversacional(data: ConversacionRequest):
         "timestamp": datetime.utcnow().isoformat()
     })
 
-    # Recuperar historial
     historial = db.query(Conversacion).filter_by(session_id=session_id).order_by(Conversacion.timestamp).all()
     historial_conversacion = ""
     for mensaje in historial:
         historial_conversacion += f"{mensaje.role.capitalize()}: {mensaje.contenido}\n"
 
-    # Buscar contexto
     contexto = buscar_contexto(pregunta)
 
-    # Generar respuesta (con historial incluido)
     respuesta = generar_respuesta_con_contexto(pregunta, contexto, historial_conversacion)
 
-    # Guardar respuesta
     db.add(Conversacion(session_id=session_id, role="assistant", contenido=respuesta))
     db.commit()
     db.close()
 
-    # Guardar log
     guardar_log({
         "session_id": session_id,
         "role": "assistant",

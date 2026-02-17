@@ -2,6 +2,7 @@ from sqlalchemy import Column, Integer, String, Text, DateTime, create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
 from datetime import datetime
+import os
 
 Base = declarative_base()
 
@@ -13,8 +14,9 @@ class Conversacion(Base):
     contenido = Column(Text)
     timestamp = Column(DateTime, default=datetime.utcnow)
 
-# Configuración de SQLite
-DATABASE_URL = 'sqlite:///historial.db'
+# Configuración de SQLite — stored under storage/
+_BASE_DIR = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+DATABASE_URL = f"sqlite:///{os.path.join(_BASE_DIR, 'storage', 'historial.db')}"
 engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
 SessionLocal = sessionmaker(autocommit=False, autoflush=False, bind=engine)
 
