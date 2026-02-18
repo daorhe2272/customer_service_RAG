@@ -12,6 +12,7 @@ __pycache__/
 
 # Runtime-generated storage (databases, vector store, logs)
 storage/
+chroma/
 
 # IDE / OS files
 .DS_Store
