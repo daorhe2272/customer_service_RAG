@@ -4,7 +4,7 @@ from google.generativeai import GenerativeModel, configure
 
 load_dotenv()
 configure(api_key=os.getenv("GOOGLE_API_KEY"))
-model = GenerativeModel("gemini-2.0-flash")
+model = GenerativeModel("gemini-2.5-flash")
 
 def generar_respuesta_con_contexto(pregunta: str, contexto: str, historial: str = "") -> str:
     prompt = f"""

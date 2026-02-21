@@ -1,6 +1,6 @@
 # AI Customer Service Agent with RAG
 
-> A production-style conversational AI system that answers customer inquiries by retrieving and reasoning over company policy documents — built to demonstrate end-to-end applied AI engineering skills.
+> A production-style conversational AI system that answers customer inquiries by retrieving and reasoning over company policy documents — built as a pilot demo for a Colombian fashion retailer.
 
 ---
 
@@ -65,7 +65,7 @@ This design means the LLM never needs to memorize company policies — it reads 
 | Decision | Rationale |
 |----------|-----------|
 | **RAG over fine-tuning** | Policies change frequently; RAG allows updates by re-indexing a document rather than retraining a model. |
-| **ChromaDB** | Lightweight, runs locally with no external cloud dependency, suitable for a self-contained portfolio demo. |
+| **ChromaDB** | Lightweight, runs locally with no external cloud dependency, suitable for a pilot deployment with minimal infrastructure overhead. |
 | **Google Gemini 2.0 Flash** | Strong instruction-following for constrained system prompts; fast and cost-effective for conversational use. |
 | **FastAPI + Streamlit** | Decoupled frontend/backend allows the API to be consumed independently (e.g., by a mobile app or third-party integration). |
 | **SQLite for session history** | Zero-infrastructure persistence; conversation turns are structured and queryable without a separate database server. |

@@ -10,7 +10,7 @@ os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY")
 
 client = HttpClient(host="localhost", port=8001)
 collection = client.get_or_create_collection(name="documentos")
-embedding_model = GoogleGenerativeAIEmbeddings(model="models/embedding-001")
+embedding_model = GoogleGenerativeAIEmbeddings(model="models/gemini-embedding-001")
 
 async def dividir_y_indexar_texto(texto: str, file_id: str):
     splitter = RecursiveCharacterTextSplitter(chunk_size=300, chunk_overlap=50)
