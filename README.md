@@ -15,7 +15,7 @@ The use case is post-sales customer support for a fashion retail company (Quest 
 ## Skills Demonstrated
 
 - **RAG pipeline design**: end-to-end implementation from document ingestion to grounded LLM response
-- **LLM integration**: prompt engineering with Google Gemini 2.0 Flash, including system prompt design for scope enforcement
+- **LLM integration**: prompt engineering with Google Gemini 2.5 Flash, including system prompt design for scope enforcement
 - **Vector search**: semantic retrieval with ChromaDB and Google embedding models
 - **API development**: RESTful API design with FastAPI, including file upload, session management, and CORS
 - **Conversational state management**: multi-turn session tracking with automatic expiry (SQLite-backed)
@@ -27,9 +27,7 @@ The use case is post-sales customer support for a fashion retail company (Quest 
 
 ## Demo
 
-![Streamlit chat UI](docs/demo.png)
-
-> **Note:** Replace `docs/demo.png` with a screenshot or screen recording of the running application.
+![Streamlit chat UI](docs/rag_demo.webp)
 
 ---
 
@@ -52,7 +50,7 @@ User message
     → Query embedding + semantic search (top-5 relevant chunks)
     → Session history retrieval (SQLite)
     → Prompt construction: system role + retrieved context + conversation history + user query
-    → Gemini 2.0 Flash generates a grounded response
+    → Gemini 2.5 Flash generates a grounded response
     → Response logged (SQLite + JSONL) and returned to the user
 ```
 
@@ -66,7 +64,7 @@ This design means the LLM never needs to memorize company policies — it reads 
 |----------|-----------|
 | **RAG over fine-tuning** | Policies change frequently; RAG allows updates by re-indexing a document rather than retraining a model. |
 | **ChromaDB** | Lightweight, runs locally with no external cloud dependency, suitable for a pilot deployment with minimal infrastructure overhead. |
-| **Google Gemini 2.0 Flash** | Strong instruction-following for constrained system prompts; fast and cost-effective for conversational use. |
+| **Google Gemini 2.5 Flash** | Strong instruction-following for constrained system prompts; fast and cost-effective for conversational use. |
 | **FastAPI + Streamlit** | Decoupled frontend/backend allows the API to be consumed independently (e.g., by a mobile app or third-party integration). |
 | **SQLite for session history** | Zero-infrastructure persistence; conversation turns are structured and queryable without a separate database server. |
 | **Dual logging (SQLite + JSONL)** | SQLite enables relational queries on history; JSONL is portable and easy to ship to external log aggregators. |
@@ -78,7 +76,7 @@ This design means the LLM never needs to memorize company policies — it reads 
 
 | Layer | Technology |
 |-------|-----------|
-| LLM | Google Gemini 2.0 Flash |
+| LLM | Google Gemini 2.5 Flash |
 | Embeddings | Google Generative AI (`models/embedding-001`) |
 | Vector DB | ChromaDB (HTTP client mode) |
 | Backend | FastAPI + Uvicorn |
@@ -121,18 +119,6 @@ customer_service_RAG/
 ├── requirements.txt
 └── .env                        # API keys (not committed)
 ```
-
----
-
-## What I Built (vs. What Libraries Provide)
-
-Libraries handle the undifferentiated heavy lifting (HTTP transport, tokenization, vector math). The application logic is custom:
-
-- **RAG service** (`app/services/rag_service.py`): chunking strategy, embedding orchestration, and similarity search parameters tuned for short policy documents
-- **Gemini service** (`app/services/gemini_service.py`): system prompt design that enforces domain scope and injects retrieved context + conversation history into every request
-- **Session management** (`app/api/main.py`): in-memory session store with 2-hour inactivity expiry, persisted to SQLite on each turn
-- **Dual logging pipeline**: every interaction written to both a relational table (queryable) and a JSONL file (portable)
-- **Multi-file ingestion**: PDF and TXT upload endpoint that extracts text, chunks, embeds, and indexes in a single request
 
 ---
 
@@ -231,14 +217,6 @@ Open `http://localhost:8501` in your browser.
 - **Scope enforcement**: system prompt restricts the agent strictly to post-sales topics
 - **Dual logging**: SQLite for queryable history, JSONL for portable structured logs
 - **Decoupled architecture**: API and frontend are independent — the API can serve any client
-
----
-
-## Running Tests
-
-```bash
-python -m pytest tests/
-```
 
 ---
 
