@@ -1,0 +1,370 @@
+# PREGUNTAS FRECUENTES - QUEST COLOMBIA
+
+## COMPRAS Y PEDIDOS
+
+### ¿Cómo compro en www.quest.com.co?
+1. Navega por categorías o usa el buscador
+2. Selecciona el producto, color y talla
+3. Agrega a la bolsa haciendo clic en "AGREGAR A LA BOLSA"
+4. Ve a tu carrito y haz clic en "FINALIZAR COMPRA"
+5. Ingresa tu email
+6. Completa tus datos personales y dirección de entrega
+7. Elige el método de pago
+8. Confirma tu compra
+9. Recibirás una confirmación por correo electrónico
+
+### ¿Es seguro comprar en Quest?
+Sí, completamente seguro. Quest cuenta con:
+- **Certificación PCI DSS** para el manejo seguro de información de tarjetas de crédito
+- **Alianza con Mercado Pago** como procesador de pagos seguro
+- **Encriptación** de toda la información sensible
+- Protección de datos personales según normativa colombiana
+
+### ¿Puedo modificar o cancelar mi pedido?
+Solo si el pedido aún NO ha sido despachado. Contacta INMEDIATAMENTE a servicio al cliente:
+- Teléfono: (602) 489-5000 - Opción 2
+- WhatsApp: +57 3170789803
+- Email: servicioalcliente@quest.com.co
+
+Si ya fue despachado, deberás recibir el producto y usar el derecho de retracto (5 días hábiles) o solicitar un cambio según la política.
+
+### ¿Qué hago si no recibí el correo de confirmación?
+1. Revisa tu carpeta de **spam o correo no deseado**
+2. Verifica que el correo electrónico esté bien escrito
+3. Espera unos minutos (a veces tarda en llegar)
+4. Si persiste, contacta a servicio al cliente con tu información de compra
+
+---
+
+## MÉTODOS DE PAGO
+
+### ¿Qué métodos de pago aceptan?
+Quest acepta:
+- **Tarjetas de crédito**: Visa, Mastercard, American Express, Diners Club
+- **Tarjetas de débito**: Todas las habilitadas para compras online
+- **PSE**: Transferencia bancaria directa
+- **Pago contra entrega**: Efectivo o datáfono (según zona de cobertura)
+- **Sistecrédito**: Financiación (sujeto a aprobación)
+- **Addi**: Compra ahora, paga después (sujeto a aprobación)
+- **Efecty**: Pago en efectivo en puntos Efecty
+
+### ¿Qué es PSE?
+PSE (Pagos Seguros en Línea) es un servicio seguro que permite realizar débitos directos desde tu cuenta de ahorros o corriente a través del portal virtual de tu banco. Es seguro, certificado, y no requiere tarjeta de crédito.
+
+### ¿Por qué no fue aprobado mi pago?
+Las razones más comunes son:
+- **Fondos insuficientes** en la cuenta o tarjeta
+- **Límite de compras online** alcanzado
+- **Datos incorrectos**: Fecha de vencimiento, CVV, etc.
+- **Bloqueo de seguridad** del banco
+
+**Solución**: Contacta a tu banco para verificar. Luego intenta nuevamente.
+
+### ¿Cuánto tarda en procesarse el pago?
+- **Tarjetas de crédito/débito**: Hasta 1 día hábil
+- **PSE**: Hasta 1 día hábil
+- **Efecty**: Hasta 1 día hábil después del pago
+- **Pago contra entrega**: Se procesa al momento de la entrega
+
+### ¿Cuánto tarda un reembolso?
+- **Procesamiento interno de Quest**: Hasta 15 días hábiles
+- **Aparición en tu cuenta bancaria**: Hasta 30 días hábiles adicionales
+- **Total**: Puede tomar hasta 30-45 días hábiles
+
+Depende del ciclo de facturación de tu tarjeta y procesos internos de tu banco.
+
+---
+
+## ENVÍOS Y ENTREGAS
+
+### ¿Hacen envíos a todo Colombia?
+Sí, Quest envía a **todos los municipios de Colombia**.
+
+### ¿Hacen envíos internacionales?
+No, las ventas están restringidas únicamente al territorio colombiano.
+
+### ¿Cuánto cuesta el envío?
+El costo varía según:
+- Destino de entrega
+- Valor de la compra
+- Peso y volumen del pedido
+
+**Envío GRATIS** en compras de **$199,900 COP o más**.
+
+Verás el costo exacto al ingresar tu dirección de entrega durante el proceso de compra.
+
+### ¿Cuánto tarda el envío?
+**Tiempos estimados después de la aprobación del pago**:
+- **Cali**: Aproximadamente 3 días hábiles
+- **Ciudades principales**: Aproximadamente 5 días hábiles
+- **Otros destinos**: Hasta 13 días hábiles
+
+**Nota**: Durante promociones (Black Friday, Cyber Monday, etc.) puede extenderse 3 días hábiles adicionales.
+
+### ¿Cómo rastrea mi pedido?
+1. Ve a www.quest.com.co
+2. Busca la sección **"RASTREA TU PEDIDO"**
+3. Selecciona tu transportador
+4. Ingresa el número de guía (lo recibes por email cuando se despacha)
+5. Consulta el estado actualizado
+
+También puedes llamar al (602) 489-5000 - Extensión 1100.
+
+### ¿Qué hago si mi pedido no llega?
+- **Si no ha superado el tiempo estimado**: Ten paciencia y rastrea tu pedido
+- **Si superó el tiempo estimado**: Contacta servicio al cliente con tu número de pedido
+- **Si han pasado 60 días**: Puedes solicitar reversión del pago
+
+### ¿Qué hago si mi producto llegó dañado?
+1. Si el daño es evidente en la caja: **NO aceptes el paquete**
+2. Si descubres el daño al abrir: Toma **fotos inmediatamente**
+3. Contacta a servicio al cliente **dentro de las 48 horas**:
+   - Teléfono: (602) 489-5000
+   - WhatsApp: +57 3170789803
+   - Email: servicioalcliente@quest.com.co
+4. Envía las fotos del daño
+5. Quest gestionará el reemplazo o solución
+
+---
+
+## CAMBIOS Y DEVOLUCIONES
+
+### ¿Puedo cambiar un producto?
+Sí, dentro de los siguientes plazos:
+- **Ropa**: 30 días calendario
+- **Calzado**: 15 días calendario
+- **Accesorios**: 30 días calendario
+- **Ropa interior**: NO (0 días, excepto bajo garantía)
+- **Perfumes**: 30 días (solo si están sellados y sin usar)
+
+### ¿Qué requisitos debe cumplir el producto para cambio?
+- Estar **sin usar, sin lavar** y sin modificaciones
+- Conservar todas las **etiquetas originales** intactas
+- Estar en el **empaque original**
+- Presentar el **recibo de compra**
+- Estar **limpio** y en estado higiénico
+
+### ¿Cómo hago un cambio de compra en tienda física?
+1. Lleva el producto con el recibo a **cualquier tienda Quest**
+2. El personal verificará las condiciones
+3. Selecciona tu producto de reemplazo
+4. Si hay diferencia de precio:
+   - **Más caro**: Pagas la diferencia
+   - **Más barato**: Recibes bono válido por 12 meses
+
+### ¿Cómo hago un cambio de compra online?
+1. Contacta servicio al cliente:
+   - Teléfono: (602) 489-5000
+   - Email: servicioalcliente@quest.com.co
+   - Centro de ayuda: questcolombia.zendesk.com
+2. Quest te enviará una **guía prepagada de Servientrega** por email
+3. Empaca el producto y envíalo usando la guía
+4. Quest valida el producto y envía el reemplazo a tu dirección
+5. Si no hay disponibilidad, recibes bono o crédito
+
+### ¿Me devuelven el dinero en un cambio?
+**NO**, en cambios regulares no se devuelve dinero en efectivo. Solo se entregan:
+- Productos de igual o mayor valor
+- Bonos de diferencia (si el nuevo producto cuesta menos)
+
+**Sí hay reembolso en efectivo en**:
+- Derecho de retracto (compras online, 5 días hábiles)
+- Reversión de pago por problemas graves
+- Garantía aprobada en compras online sin disponibilidad de producto
+
+### ¿Qué es el derecho de retracto?
+Es el derecho a devolver un producto y recibir reembolso completo, aplicable **SOLO** para:
+- Compras por **internet, teléfono o canales digitales**
+- **NO aplica** para compras en tiendas físicas
+
+**Plazo**: 5 días hábiles desde la entrega
+**Condición**: Producto en las mismas condiciones recibidas (sin usar, con etiquetas)
+
+### ¿Puedo cambiar productos en promoción?
+Sí, pero con restricciones:
+- Solo se pueden cambiar por **talla o color del mismo estilo**
+- **NO** se pueden cambiar por productos diferentes
+- Aplican las mismas condiciones de tiempo y estado
+
+---
+
+## GARANTÍAS
+
+### ¿Qué garantía tienen los productos?
+- **Ropa**: 60 días calendario
+- **Calzado**: 30 días calendario
+- **Accesorios**: 60 días calendario
+- **Perfumes**: 60 días (defectos específicos solamente)
+
+### ¿Qué cubre la garantía?
+La garantía cubre:
+- **Defectos de fabricación**
+- **Defectos de materiales**
+- Fallas en costuras, cierres, botones por defecto de fábrica
+- Desprendimiento de suelas por defecto de fabricación
+
+### ¿Qué NO cubre la garantía?
+NO cubre:
+- Daños por **uso inadecuado**
+- Daños por **negligencia** o **accidentes**
+- **Desgaste normal** por uso regular
+- Modificaciones realizadas por el cliente
+- Daños por lavado incorrecto
+- En perfumes: duración de la fragancia (varía según pH de cada persona)
+
+### ¿Cómo reclamo la garantía?
+**Compras en tienda física**:
+1. Visita cualquier tienda Quest con el producto
+2. Presenta el recibo y explica el problema
+3. Recibe comprobante de radicación
+4. Quest evalúa en 15 días hábiles
+5. Si se aprueba: Reparación o reemplazo en máximo 15 días
+
+**Compras online**:
+1. Contacta servicio al cliente (teléfono, email, centro de ayuda)
+2. Proporciona información del pedido y descripción del problema
+3. Quest programa recolección gratuita
+4. Evaluación en 15 días hábiles
+5. Si se aprueba: Reparación, reemplazo o reembolso (si no hay disponibilidad)
+
+### ¿Me devuelven el dinero con la garantía?
+- **Primera reclamación con producto disponible**: NO, solo reparación o reemplazo
+- **Compra online sin disponibilidad de producto**: SÍ, reembolso completo
+
+---
+
+## PRODUCTOS Y DISPONIBILIDAD
+
+### ¿Cómo sé qué talla elegir?
+- Consulta la **guía de tallas** disponible en cada producto
+- Las tallas pueden variar según marca y tipo de producto
+- Si tienes dudas, contacta servicio al cliente para asesoría
+
+### ¿Qué hago si el producto que quiero está agotado?
+- Revisa si habrá disponibilidad próximamente
+- Suscríbete a notificaciones de disponibilidad (si está disponible)
+- Contacta servicio al cliente para consultar fechas de restock
+- Verifica en tiendas físicas si tienen el producto
+
+### ¿Puedo reservar un producto?
+Consulta con servicio al cliente la disponibilidad de esta opción. Generalmente no se reservan productos, se venden por orden de compra.
+
+---
+
+## CUENTA Y PRIVACIDAD
+
+### ¿Necesito crear una cuenta para comprar?
+No, puedes comprar como invitado. Sin embargo, crear una cuenta te permite:
+- Ver historial de pedidos
+- Guardar direcciones de envío
+- Rastrear envíos fácilmente
+- Recibir ofertas exclusivas
+
+### ¿Cómo protegen mis datos personales?
+Quest protege tus datos según:
+- Normativa colombiana de protección de datos
+- Certificación PCI DSS para datos de pago
+- Encriptación de información sensible
+- NO comparte datos con terceros sin autorización
+
+Puedes consultar la política de privacidad completa en www.quest.com.co
+
+### ¿Puedo solicitar la eliminación de mis datos?
+Sí, contacta a servicioalcliente@quest.com.co para solicitar eliminación de tus datos personales según tu derecho de olvido.
+
+---
+
+## TIENDAS FÍSICAS
+
+### ¿Dónde están ubicadas las tiendas Quest?
+Visita el localizador de tiendas en:
+www.quest.com.co/pages/localizador
+
+O contacta servicio al cliente para información de ubicaciones.
+
+### ¿Puedo recoger en tienda un producto comprado online?
+Consulta disponibilidad de esta opción con servicio al cliente al momento de la compra.
+
+### ¿Los cambios de compras en tienda se pueden hacer online?
+NO. Las compras en tienda física se cambian **únicamente en tiendas físicas**.
+
+---
+
+## OTROS TEMAS
+
+### ¿Quest tiene programa de fidelidad?
+Sí, Quest tiene **Club Quest**. Visita: https://clubquest1995.quest.com.co/ para más información.
+
+### ¿Quest vende uniformes corporativos?
+Sí, a través de un portal especializado: https://dotacionesncs.com/
+
+### ¿Puedo comprar con factura para mi empresa?
+Sí, proporciona el NIT y razón social de tu empresa durante el proceso de compra. La factura electrónica se genera con estos datos.
+
+### ¿Puedo modificar la factura después de emitida?
+NO. Según regulación de la DIAN (autoridad tributaria colombiana), las facturas electrónicas no se pueden modificar después de emitidas. Asegúrate de proporcionar los datos correctos al momento de la compra.
+
+### ¿Qué hago si recibo comunicaciones sospechosas?
+Quest NUNCA te contactará para:
+- Solicitar datos de tarjetas por teléfono o email
+- Pedir contraseñas o claves personales
+- Solicitar transferencias a cuentas personales
+- Ofrecer premios sospechosos
+
+Si recibes algo sospechoso:
+- Verifica que sea de dominio @quest.com.co
+- NO hagas clic en links sospechosos
+- Reporta a servicioalcliente@quest.com.co
+
+---
+
+## CONTACTO
+
+### ¿Cómo contacto a servicio al cliente?
+
+**Teléfono**: (602) 489-5000
+- Opción 1: Envíos y rastreo (Ext. 1100)
+- Opción 2: Servicio al cliente general
+
+**WhatsApp**: +57 3170789803
+
+**Email**: servicioalcliente@quest.com.co
+
+**Centro de ayuda**: questcolombia.zendesk.com
+
+**Horario**:
+- Lunes a Viernes: 8:00am - 5:00pm
+- Sábados: 8:00am - 12:00pm
+- Domingos y festivos: Cerrado
+
+---
+
+## TIPS Y CONSEJOS
+
+### Para una compra exitosa:
+1. **Verifica la guía de tallas** antes de ordenar
+2. **Lee la descripción completa** del producto
+3. **Revisa TRES VECES** tu dirección de entrega
+4. **Proporciona un teléfono** donde estés disponible
+5. **Guarda el correo de confirmación**
+
+### Para un cambio sin problemas:
+1. **No uses el producto** si sabes que lo vas a cambiar
+2. **Conserva etiquetas y empaques** originales
+3. **No laves ni modifiques** la prenda
+4. **Presenta el recibo** de compra
+5. **Respeta los plazos** (30 días ropa, 15 días calzado)
+
+### Para rastrear tu pedido:
+1. **Espera el email** con el número de guía
+2. **Revisa spam** si no lo recibes
+3. **Usa el rastreador online** para ver estado actualizado
+4. **Ten paciencia** durante periodos promocionales
+5. **Contacta solo si superas** el tiempo estimado
+
+### Para garantías:
+1. **Lee instrucciones de cuidado** antes de usar
+2. **Guarda el recibo** (facilita el proceso)
+3. **No modifiques** el producto
+4. **Actúa rápido** si detectas un defecto
+5. **Proporciona evidencia** (fotos del problema)

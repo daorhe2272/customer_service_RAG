@@ -1,0 +1,249 @@
+# MÉTODOS DE PAGO Y POLÍTICA DE REEMBOLSOS - QUEST COLOMBIA
+
+## 1. MÉTODOS DE PAGO ACEPTADOS
+
+Quest Colombia acepta múltiples métodos de pago para compras en línea:
+
+### 1.1 Tarjetas de Crédito
+- **Visa**
+- **Mastercard**
+- **American Express**
+- **Diners Club**
+
+**Características**:
+- Pago inmediato en línea
+- Procesamiento seguro con certificación PCI DSS
+- Aprobación en hasta 1 día hábil
+- Disponible en todas las compras online
+
+### 1.2 Tarjetas de Débito
+- Todas las tarjetas débito de bancos colombianos con habilitación para compras en línea
+
+**Características**:
+- Descuento directo de cuenta de ahorros o corriente
+- Procesamiento seguro
+- Aprobación en hasta 1 día hábil
+
+### 1.3 PSE (Pagos Seguros en Línea)
+**¿Qué es PSE?**
+PSE es un servicio seguro de pagos en línea que permite realizar débitos directos desde cuentas de ahorro o corriente a través de la plataforma virtual de su banco.
+
+**Características**:
+- Transferencia bancaria directa
+- Disponible para cuentas de ahorro y corriente
+- No requiere tarjeta de crédito
+- Procesamiento a través del portal de su banco
+- Aprobación en hasta 1 día hábil
+- Seguro y certificado
+
+**Bancos participantes**:
+La mayoría de bancos colombianos están disponibles en PSE.
+
+### 1.4 Pago Contra Entrega
+**Disponibilidad**: Zonas de cobertura específicas
+
+**Métodos aceptados al momento de la entrega**:
+- **Datáfono** (tarjeta de crédito o débito)
+- **Efectivo** (se recomienda tener el monto exacto)
+
+**Proceso**:
+1. Seleccionar "Pago contra entrega" durante el proceso de compra
+2. El pedido se procesa y envía normalmente
+3. El pago se realiza al transportador al momento de recibir el producto
+4. El tiempo de entrega comienza 1 día hábil después de realizar el pedido
+
+### 1.5 Sistecrédito
+Opción de financiamiento disponible para compras elegibles.
+
+**Características**:
+- Permite financiar compras
+- Aprobación sujeta a políticas de Sistecrédito
+- Consultar condiciones y tasas directamente con Sistecrédito
+
+### 1.6 Addi
+Plataforma de compra ahora, paga después.
+
+**Características**:
+- Permite dividir el pago en cuotas
+- Aprobación instantánea en línea
+- Sin necesidad de tarjeta de crédito tradicional
+- Sujeto a aprobación de Addi
+
+### 1.7 Efecty
+Sistema de pago en efectivo.
+
+**Características**:
+- Pago en puntos Efecty a nivel nacional
+- El procesamiento de la información toma hasta 1 día hábil después del pago
+- El cliente recibe un código de pago que debe presentar en Efecty
+
+---
+
+## 2. SEGURIDAD EN PAGOS
+
+### 2.1 Certificaciones y Protección
+- **Certificación PCI DSS**: La plataforma tecnológica de Quest cuenta con certificación PCI DSS para el manejo seguro de información de tarjetas de crédito
+- **Alianza con Mercado Pago**: Quest trabaja con Mercado Pago como procesador de pagos para garantizar seguridad adicional
+- **Encriptación**: Toda la información de pago está encriptada durante la transmisión
+
+### 2.2 Protección de Datos
+- Los datos de tarjetas no son almacenados en servidores de Quest
+- La información financiera se procesa a través de pasarelas de pago certificadas
+- Quest nunca solicitará información de tarjetas por correo electrónico, teléfono o WhatsApp
+
+### 2.3 Prevención de Fraude
+Si se detecta una transacción sospechosa:
+- Quest puede solicitar verificación adicional de identidad
+- Se puede requerir confirmación telefónica del titular de la tarjeta
+- En casos de fraude confirmado, se procede con la reversión del pago
+
+---
+
+## 3. REEMBOLSOS
+
+### 3.1 Casos en los que se Realizan Reembolsos
+
+**Reembolsos aplican en**:
+1. **Derecho de retracto** (compras online, 5 días hábiles)
+2. **Reversión de pago** por fraude, transacción no autorizada, no recepción del producto (60 días), producto no conforme, o producto defectuoso
+3. **Garantía aprobada** en compras online cuando no hay producto disponible para reemplazo
+
+**Reembolsos NO aplican en**:
+- Cambios regulares de productos (se otorgan bonos)
+- Compras en tiendas físicas (solo aplica derecho de cambio)
+- Primera reclamación de garantía con producto disponible (se ofrece reparación o reemplazo)
+
+### 3.2 Tiempos de Reembolso
+
+#### Para Tarjetas de Crédito/Débito:
+- **Procesamiento interno**: Hasta 15 días hábiles
+- **Aparición en cuenta bancaria**: Las transferencias pueden tardar hasta 30 días hábiles en reflejarse en el estado de cuenta
+- **Total**: Hasta 30-45 días hábiles en total
+
+El tiempo depende de:
+- El banco emisor de la tarjeta
+- El ciclo de facturación de la tarjeta
+- Los procesos internos del banco
+
+#### Para PSE y Otros Métodos:
+- Reembolso mediante transferencia bancaria
+- El cliente debe proporcionar información bancaria completa (ver 3.3)
+- Tiempo de procesamiento: 15 días hábiles
+
+### 3.3 Requisitos para Recibir Reembolso
+
+Para procesar un reembolso, el cliente debe proporcionar:
+
+**Información obligatoria**:
+- Nombre completo (como aparece en la cuenta bancaria)
+- Número de identificación (cédula)
+- Número de cuenta bancaria
+- Tipo de cuenta (ahorros o corriente)
+- Nombre del banco
+
+**O alternativamente**:
+- Certificación bancaria (documento emitido por el banco con los datos de la cuenta)
+
+**Información adicional**:
+- Número de pedido
+- Correo electrónico de contacto
+- Razón del reembolso
+
+### 3.4 Proceso de Reembolso
+
+1. **Solicitud**: El cliente solicita el reembolso (por retracto, reversión o garantía aprobada)
+2. **Validación**: Quest valida que el caso cumple con las condiciones para reembolso
+3. **Información bancaria**: El cliente proporciona sus datos bancarios
+4. **Procesamiento**: Quest procesa el reembolso en hasta 15 días hábiles
+5. **Transferencia bancaria**: El banco procesa la transferencia (puede tomar hasta 30 días hábiles adicionales)
+6. **Confirmación**: El cliente recibe el reembolso en su cuenta
+
+### 3.5 Reembolso de Costos de Envío
+
+**Reglas para reembolso de envío**:
+- **Si se reembolsa TODO el pedido completo**: Se incluye el valor del envío en el reembolso
+- **Si solo se reembolsa PARTE del pedido**: NO se reembolsa el costo de envío
+- **Envío gratis**: Si el envío fue gratuito, no hay monto adicional a reembolsar
+
+---
+
+## 4. BONOS Y VALES
+
+### 4.1 Bonos de Diferencia
+Cuando se realiza un cambio y el nuevo producto cuesta menos que el original:
+- Se otorga un **bono por la diferencia de valor**
+- **Validez**: 12 meses desde la fecha de emisión
+- **Uso**: En compras futuras en Quest (tiendas físicas u online)
+- **Acumulable**: Se puede combinar con otros bonos
+- **No reembolsable**: No se convierte a efectivo
+
+### 4.2 Vales Electrónicos
+Para promociones especiales:
+- **Validez**: Máximo 24 horas desde su emisión
+- Se envían por correo electrónico
+- Aplicables según términos y condiciones específicos de cada promoción
+
+### 4.3 Uso de Bonos
+- Presentar el bono físico o digital al momento de la compra
+- Informar al personal de tienda o ingresar el código en línea
+- Se descuenta del total de la compra
+- Si la compra es menor al valor del bono, el saldo restante permanece disponible hasta la expiración
+
+---
+
+## 5. FACTURACIÓN
+
+### 5.1 Factura Electrónica
+- Todas las compras generan factura electrónica
+- Se envía automáticamente al correo electrónico registrado
+- Conservar la factura para garantías, cambios y devoluciones
+
+### 5.2 Datos de Facturación
+- Proporcionar datos correctos al momento de la compra
+- Para facturar a empresa: Incluir NIT y razón social
+- No se modifican facturas después de emitidas (según regulación DIAN)
+
+---
+
+## 6. PREGUNTAS FRECUENTES SOBRE PAGOS
+
+**¿Por qué mi pago no fue aprobado?**
+Razones comunes:
+- Fondos insuficientes
+- Límite de compras en línea de la tarjeta alcanzado
+- Datos incorrectos (fecha de vencimiento, CVV, etc.)
+- Bloqueo de seguridad del banco
+- **Solución**: Contactar a su banco para verificar
+
+**¿Puedo pagar con dos métodos diferentes?**
+No, actualmente solo se acepta un método de pago por transacción.
+
+**¿Puedo cambiar el método de pago después de ordenar?**
+No, el método de pago no se puede cambiar una vez procesado el pedido. Si el pago no fue aprobado, debe realizar un nuevo pedido.
+
+**¿Cuándo se realiza el cobro?**
+- Tarjetas de crédito/débito: Inmediatamente al aprobar la compra
+- PSE: Al momento de confirmar la transferencia
+- Pago contra entrega: Al recibir el producto
+
+**¿Es seguro ingresar los datos de mi tarjeta?**
+Sí, Quest utiliza certificación PCI DSS y trabaja con procesadores de pago certificados. Los datos están encriptados y seguros.
+
+**¿Por qué mi reembolso tarda tanto?**
+Los reembolsos dependen de:
+- Procesamiento interno de Quest (15 días hábiles)
+- Ciclo de facturación de su banco
+- Procesos del banco emisor
+- Puede tomar hasta 30-45 días hábiles en total
+
+---
+
+## 7. INFORMACIÓN DE CONTACTO PARA TEMAS DE PAGO
+
+Para consultas sobre pagos, reembolsos o problemas de facturación:
+
+- **Teléfono**: (602) 489-5000 - Opción 2
+- **Horario**: Lunes a Viernes 8:00am - 5:00pm, Sábados 8:00am - 12:00pm
+- **Email**: servicioalcliente@quest.com.co
+- **WhatsApp**: +57 3170789803
+- **Centro de ayuda online**: questcolombia.zendesk.com

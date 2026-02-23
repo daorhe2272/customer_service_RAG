@@ -15,7 +15,7 @@ The use case is post-sales customer support for a fashion retail company (Quest 
 ## Skills Demonstrated
 
 - **RAG pipeline design**: end-to-end implementation from document ingestion to grounded LLM response
-- **LLM integration**: prompt engineering with Google Gemini 2.5 Flash, including system prompt design for scope enforcement
+- **LLM integration**: advanced prompt engineering with Google Gemini 2.5 Flash, including structured system prompts with response guidelines, tone control, and grounding enforcement
 - **Vector search**: semantic retrieval with ChromaDB and Google embedding models
 - **API development**: RESTful API design with FastAPI, including file upload, session management, and CORS
 - **Conversational state management**: multi-turn session tracking with automatic expiry (SQLite-backed)
@@ -104,7 +104,12 @@ customer_service_RAG/
 │       └── gemini_service.py   # Prompt engineering + Gemini API calls
 ├── data/
 │   └── policies/
-│       └── politicas.txt       # Source policy documents
+│       ├── politicas.txt              # Returns, exchanges, warranties (comprehensive)
+│       ├── envios.txt                 # Shipping and delivery policies
+│       ├── pagos.txt                  # Payment methods and refunds
+│       ├── como_comprar.txt           # Shopping process guide
+│       ├── contacto_y_soporte.txt     # Customer service contact info
+│       └── preguntas_frecuentes.txt   # Frequently asked questions
 ├── scripts/
 │   ├── indexar.py              # Bulk-index documents into ChromaDB
 │   └── limpiar_chroma.py       # Reset vector store (Windows-safe)
@@ -224,7 +229,7 @@ Open `http://localhost:8501` in your browser.
 
 | Script | Description |
 |--------|-------------|
-| `scripts/indexar.py` | Index `data/policies/politicas.txt` into ChromaDB |
+| `scripts/indexar.py` | Index all policy documents from `data/policies/` into ChromaDB |
 | `scripts/limpiar_chroma.py` | Delete local ChromaDB storage (Windows-safe) |
 
 ---
