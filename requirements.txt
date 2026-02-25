@@ -34,3 +34,8 @@ opentelemetry-instrumentation-asgi
 opentelemetry-semantic-conventions
 opentelemetry-util-http
 PyMuPDF
+
+# Testing dependencies
+pytest>=7.4.0
+pytest-html>=3.2.0
+pytest-asyncio>=0.21.0

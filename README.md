@@ -234,8 +234,128 @@ Open `http://localhost:8501` in your browser.
 
 ---
 
+## Testing & Evaluation
+
+This project includes an evaluation suite that demonstrates RAG-specific testing methodologies. The test suite uses a hybrid approach combining deterministic metrics and LLM-as-judge evaluation.
+
+### Test Architecture
+
+```
+tests/
+├── fixtures/
+│   └── eval_dataset.json           # 30 curated test cases
+├── evaluators/
+│   ├── llm_judge.py                # LLM-as-judge evaluators
+│   └── retrieval_metrics.py        # Deterministic retrieval metrics
+├── conftest.py                     # Pytest fixtures and configuration
+├── test_retrieval_quality.py       # Hit rate, MRR, Precision@k
+├── test_answer_faithfulness.py     # Hallucination detection
+├── test_answer_correctness.py      # Factual accuracy
+├── test_scope_enforcement.py       # In/out-of-scope handling
+├── test_response_quality.py        # Tone, style, completeness
+├── test_conversational_coherence.py # Multi-turn context awareness
+└── run_full_eval_suite.py          # Master evaluation runner
+```
+
+### Evaluation Metrics
+
+| Category | Metrics | Method | Threshold |
+|----------|---------|--------|-----------|
+| **Retrieval Quality** | Hit Rate, MRR, Precision@k | Deterministic | ≥85%, ≥70%, ≥40% |
+| **Answer Faithfulness** | Hallucination rate | LLM Judge | ≤5% |
+| **Answer Correctness** | Semantic accuracy | LLM Judge | ≥85% |
+| **Scope Enforcement** | Proper handling rate | LLM Judge | 100% |
+| **Response Quality** | Tone, completeness | LLM Judge | ≥80%, ≥85% |
+| **Conversational** | Context awareness | LLM Judge | ≥90% |
+
+### Running Tests
+
+**Install test dependencies:**
+```bash
+pip install -r requirements.txt
+```
+
+**Run full evaluation suite:**
+```bash
+# Standard mode (balanced)
+python tests/run_full_eval_suite.py
+
+# Quick mode (skip slow tests)
+python tests/run_full_eval_suite.py --quick
+
+# Full mode (all tests)
+python tests/run_full_eval_suite.py --full
+```
+
+**Run individual test categories:**
+```bash
+# Retrieval quality (fast, deterministic)
+pytest tests/test_retrieval_quality.py -v
+
+# Answer faithfulness (LLM judge)
+pytest tests/test_answer_faithfulness.py -v
+
+# Answer correctness (LLM judge)
+pytest tests/test_answer_correctness.py -v
+
+# Scope enforcement
+pytest tests/test_scope_enforcement.py -v
+
+# Response quality
+pytest tests/test_response_quality.py -v
+
+# Conversational coherence
+pytest tests/test_conversational_coherence.py -v
+
+# Skip slow tests
+pytest tests/ -m "not slow" -v
+```
+
+### Test Results
+
+After running tests, results are saved to `eval_results/`:
+- `report.html` - Interactive HTML report with detailed test results
+- `eval_summary_[timestamp].md` - Markdown summary with methodology
+- `retrieval_metrics_[timestamp].json` - Detailed retrieval metrics
+
+### Judge LLM Configuration
+
+The evaluation uses an LLM judge for semantic evaluation. Configure via environment variable:
+
+```bash
+# Default (included in .env)
+JUDGE_LLM=gemini-2.5-flash
+
+# For production evaluations (optional)
+JUDGE_LLM=gemini-2.0-pro
+```
+
+### Why This Testing Approach?
+
+**Hybrid Strategy:**
+- **Deterministic tests** for retrieval (vector search is deterministic)
+- **LLM-as-judge** for semantic evaluation (handles paraphrasing, tone, context)
+
+**RAG-Specific Metrics:**
+- **Retrieval quality** - Test vector search separately from generation
+- **Faithfulness** - Critical for RAG (no hallucinations)
+- **Correctness** - Semantic accuracy vs ground truth
+- **Scope enforcement** - Customer service boundary detection
+- **Quality** - Tone, empathy, professionalism
+- **Conversational** - Multi-turn context maintenance
+
+**Production-Ready:**
+- 30+ test cases across 6 policy topics
+- Multiple difficulty levels (easy, medium, hard)
+- Edge cases and adversarial prompts
+- Topic and difficulty breakdowns
+- Comprehensive reporting
+
+---
+
 ## Environment Variables
 
 | Variable | Description |
 |----------|-------------|
 | `GOOGLE_API_KEY` | Google Generative AI API key |
+| `JUDGE_LLM` | LLM model for evaluation (defaults to gemini-2.5-flash) |

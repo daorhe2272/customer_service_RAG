@@ -1,0 +1,242 @@
+[
+  {
+    "question": "¿Cuántos días tengo para devolver ropa?",
+    "expected_answer": "Tienes 30 días corridos desde la fecha de compra para devolver prendas de vestir, siempre que conserven las etiquetas originales y presentes el recibo de compra.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["30 días", "etiquetas", "recibo"],
+    "topic": "returns",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Cuál es el plazo para devolver calzado?",
+    "expected_answer": "El calzado tiene un plazo de 15 días para devolución, debe estar sin uso y con la caja original.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["15 días", "sin uso", "caja"],
+    "topic": "returns",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Puedo cambiar zapatos después de usarlos una vez?",
+    "expected_answer": "No, solo se aceptan devoluciones de calzado sin uso. Si el calzado tiene un defecto de fabricación, puedes reclamar bajo garantía dentro del plazo establecido.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["sin uso", "defecto", "garantía"],
+    "topic": "returns",
+    "difficulty": "medium"
+  },
+  {
+    "question": "Mi pedido llegó dañado, ¿qué hago?",
+    "expected_answer": "Debes contactar al servicio al cliente dentro de las 48 horas posteriores a la recepción, proporcionando fotos del producto dañado. Se procederá con el cambio o reembolso sin costo adicional.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["48 horas", "fotos", "contacto", "cambio o reembolso"],
+    "topic": "warranty",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Cuánto cuesta el envío?",
+    "expected_answer": "El costo de envío varía según la ciudad y el peso del pedido. Existe envío gratis para compras superiores a cierto monto.",
+    "expected_source": "envios.txt",
+    "required_elements": ["varía", "ciudad", "envío gratis"],
+    "topic": "shipping",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Cuánto tiempo tarda la entrega?",
+    "expected_answer": "Los tiempos de entrega varían: en ciudades principales entre 2-4 días hábiles, en otras ciudades puede tomar entre 5-8 días hábiles.",
+    "expected_source": "envios.txt",
+    "required_elements": ["2-4 días", "5-8 días", "ciudades principales"],
+    "topic": "shipping",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Qué métodos de pago aceptan?",
+    "expected_answer": "Aceptamos tarjetas de crédito, débito, PSE, transferencias bancarias y pago contraentrega en algunas zonas.",
+    "expected_source": "pagos.txt",
+    "required_elements": ["tarjetas", "PSE", "contraentrega"],
+    "topic": "payment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Cómo funciona el reembolso?",
+    "expected_answer": "Los reembolsos se procesan al método de pago original dentro de 5-10 días hábiles después de recibir y verificar el producto devuelto.",
+    "expected_source": "pagos.txt",
+    "required_elements": ["método original", "5-10 días", "verificar"],
+    "topic": "payment",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Puedo pagar en cuotas?",
+    "expected_answer": "Sí, ofrecemos opciones de pago en cuotas con tarjetas de crédito según el banco emisor y el monto de la compra.",
+    "expected_source": "pagos.txt",
+    "required_elements": ["cuotas", "tarjetas de crédito", "banco"],
+    "topic": "payment",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Cómo compro por internet?",
+    "expected_answer": "Selecciona los productos, agrégalos al carrito, completa tus datos de envío y pago, y confirma tu pedido. Recibirás un correo de confirmación con el número de seguimiento.",
+    "expected_source": "como_comprar.txt",
+    "required_elements": ["carrito", "datos", "confirmación", "seguimiento"],
+    "topic": "shopping_process",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Cómo rastreo mi pedido?",
+    "expected_answer": "Puedes rastrear tu pedido ingresando el número de seguimiento que recibiste por correo en la sección de rastreo de nuestra página web.",
+    "expected_source": "como_comprar.txt",
+    "required_elements": ["número de seguimiento", "correo", "página web"],
+    "topic": "shopping_process",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Cuál es el teléfono de atención al cliente?",
+    "expected_answer": "Puedes contactarnos al teléfono de servicio al cliente que se encuentra disponible en nuestros canales de atención, o escribirnos por WhatsApp o correo electrónico.",
+    "expected_source": "contacto_y_soporte.txt",
+    "required_elements": ["teléfono", "WhatsApp", "correo"],
+    "topic": "contact",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Cuál es el horario de atención?",
+    "expected_answer": "El horario de atención es de lunes a viernes de 8:00 AM a 6:00 PM, y sábados de 9:00 AM a 1:00 PM.",
+    "expected_source": "contacto_y_soporte.txt",
+    "required_elements": ["lunes a viernes", "8:00 AM", "6:00 PM", "sábados"],
+    "topic": "contact",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Tienen tiendas físicas?",
+    "expected_answer": "Sí, Quest Colombia cuenta con tiendas físicas en las principales ciudades del país. Consulta la lista completa en nuestra página web.",
+    "expected_source": "preguntas_frecuentes.txt",
+    "required_elements": ["tiendas físicas", "principales ciudades", "página web"],
+    "topic": "general",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Hacen envíos internacionales?",
+    "expected_answer": "Actualmente solo realizamos envíos dentro del territorio colombiano.",
+    "expected_source": "envios.txt",
+    "required_elements": ["solo Colombia", "territorio colombiano"],
+    "topic": "shipping",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Qué pasa si el producto tiene un defecto de fábrica?",
+    "expected_answer": "Si el producto tiene un defecto de fabricación, está cubierto por la garantía. Debes reportarlo dentro del plazo establecido con evidencia fotográfica para proceder con el cambio o reparación.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["garantía", "defecto de fabricación", "evidencia", "cambio o reparación"],
+    "topic": "warranty",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Puedo cambiar un producto por otro de diferente valor?",
+    "expected_answer": "Sí, puedes hacer cambios por productos de diferente valor. Si el nuevo producto es más costoso, pagas la diferencia; si es más económico, se genera un bono por la diferencia.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["diferente valor", "diferencia", "bono"],
+    "topic": "returns",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Qué productos no son retornables?",
+    "expected_answer": "Los productos de higiene personal, ropa interior, trajes de baño y productos en oferta especial generalmente no son retornables por políticas de salud y comerciales.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["higiene personal", "ropa interior", "no retornables"],
+    "topic": "returns",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Puedo cancelar mi pedido después de haberlo realizado?",
+    "expected_answer": "Puedes cancelar tu pedido antes de que sea despachado contactando al servicio al cliente. Una vez despachado, deberás esperar a recibirlo y hacer la devolución según la política.",
+    "expected_source": "como_comprar.txt",
+    "required_elements": ["antes de despachar", "contactar", "devolución"],
+    "topic": "shopping_process",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Necesito crear una cuenta para comprar?",
+    "expected_answer": "No es obligatorio crear una cuenta, puedes comprar como invitado. Sin embargo, tener una cuenta te permite rastrear pedidos fácilmente y guardar tu información para compras futuras.",
+    "expected_source": "como_comprar.txt",
+    "required_elements": ["no obligatorio", "invitado", "cuenta", "rastrear"],
+    "topic": "shopping_process",
+    "difficulty": "easy"
+  },
+  {
+    "question": "Si perdí mi recibo, ¿puedo hacer la devolución?",
+    "expected_answer": "El recibo es necesario para procesar devoluciones. Si lo perdiste, contacta al servicio al cliente con tu número de pedido o información de la tarjeta usada para intentar recuperar el comprobante.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["recibo necesario", "número de pedido", "contactar"],
+    "topic": "returns",
+    "difficulty": "hard"
+  },
+  {
+    "question": "¿Ofrecen descuentos por compras grandes?",
+    "expected_answer": "Consulta nuestras promociones actuales en la página web. Para compras corporativas o al por mayor, contacta directamente al departamento comercial.",
+    "expected_source": "preguntas_frecuentes.txt",
+    "required_elements": ["promociones", "compras corporativas", "contactar"],
+    "topic": "general",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿La garantía cubre el desgaste normal?",
+    "expected_answer": "No, la garantía solo cubre defectos de fabricación, no el desgaste por uso normal del producto.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["no cubre", "desgaste normal", "defectos de fabricación"],
+    "topic": "warranty",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Puedo recoger mi pedido en tienda?",
+    "expected_answer": "Sí, ofrecemos la opción de recogida en tienda (Click & Collect) en ubicaciones seleccionadas. Selecciona esta opción al finalizar tu compra.",
+    "expected_source": "envios.txt",
+    "required_elements": ["recogida en tienda", "Click & Collect", "ubicaciones seleccionadas"],
+    "topic": "shipping",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Cómo sé mi talla correcta?",
+    "expected_answer": "Consulta nuestra guía de tallas disponible en cada página de producto. Si tienes dudas, contacta al servicio al cliente para asistencia personalizada.",
+    "expected_source": "preguntas_frecuentes.txt",
+    "required_elements": ["guía de tallas", "página de producto", "servicio al cliente"],
+    "topic": "general",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Qué hago si mi paquete no llegó?",
+    "expected_answer": "Si tu paquete no llegó en el tiempo estimado, verifica el estado con el número de rastreo. Si el problema persiste, contacta al servicio al cliente para abrir una investigación con la transportadora.",
+    "expected_source": "envios.txt",
+    "required_elements": ["rastreo", "tiempo estimado", "servicio al cliente", "investigación"],
+    "topic": "shipping",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Tienen programa de fidelidad o puntos?",
+    "expected_answer": "Consulta nuestra página web para información sobre programas de lealtad, membresías y beneficios exclusivos para clientes frecuentes.",
+    "expected_source": "preguntas_frecuentes.txt",
+    "required_elements": ["programa", "página web", "clientes frecuentes"],
+    "topic": "general",
+    "difficulty": "easy"
+  },
+  {
+    "question": "¿Puedo hacer cambios en tienda de una compra online?",
+    "expected_answer": "Sí, generalmente puedes hacer cambios de compras online en nuestras tiendas físicas presentando el recibo y cumpliendo con las políticas de devolución.",
+    "expected_source": "politicas.txt",
+    "required_elements": ["compras online", "tiendas físicas", "recibo", "políticas"],
+    "topic": "returns",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Cómo actualizo mi dirección de envío?",
+    "expected_answer": "Puedes actualizar tu dirección de envío antes de confirmar el pedido. Una vez confirmado, contacta inmediatamente al servicio al cliente si el pedido aún no ha sido despachado.",
+    "expected_source": "como_comprar.txt",
+    "required_elements": ["antes de confirmar", "contactar", "no despachado"],
+    "topic": "shopping_process",
+    "difficulty": "medium"
+  },
+  {
+    "question": "¿Emiten factura?",
+    "expected_answer": "Sí, emitimos factura electrónica que se envía al correo registrado. Si requieres factura con NIT específico, indícalo al momento de la compra.",
+    "expected_source": "pagos.txt",
+    "required_elements": ["factura electrónica", "correo", "NIT"],
+    "topic": "payment",
+    "difficulty": "easy"
+  }
+]
